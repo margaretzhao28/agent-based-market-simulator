@@ -1,0 +1,5 @@
+make_agents(config, rng)
+run_single_simulation(config, seed)
+run_scenario(config, seeds)
+compare_scenarios(results)
+main()

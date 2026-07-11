@@ -1,0 +1,1 @@
+to compare my findings with real market data

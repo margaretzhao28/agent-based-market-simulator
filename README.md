@@ -4,7 +4,7 @@ Agent-based simulation of financial markets exploring how simple trading behavio
 
 ## Overview
 
-Financial markets are complex systems in which thousands of individual participants interact through buying and selling decisions. Rather than assuming perfectly rational investors, this project models a heterogeneous population of traders with different strategies and investigates how their interactions influence market behaviour.
+Financial markets are complex systems in which thousands of individual participants interact through buying and selling decisions. Rather than assuming perfectly rational investors, this project models a heterogeneous population of traders with different strategies and investigates how their interactions influence market behaviour. 
 
 The project aims to answer questions such as:
 
@@ -61,10 +61,13 @@ Planned features:
 agent-based-market-simulator/
 
 src/
-    agents.py
-    market.py
-    simulation.py
-    metrics.py
+    market_simulator/
+        agents.py
+        market.py
+        metrics.py
+        simulation.py
+        orderbook.py
+        utils.py
 
 experiments/
     experiment_1.py
@@ -72,6 +75,8 @@ experiments/
 notebooks/
 
 data/
+    raw
+    processed
 
 figures/
 
@@ -85,7 +90,7 @@ tests/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/agent-based-market-simulator.git
+git clone https://github.com/margaretzhao28/agent-based-market-simulator.git
 ```
 
 Create a virtual environment

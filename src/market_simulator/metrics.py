@@ -1,0 +1,5 @@
+compute_returns(prices)
+compute_volatility(returns)
+compute_max_drawdown(prices)
+compute_average_mispricing(prices, fundamental_value)
+compute_final_wealth_by_type(agents, final_price)
