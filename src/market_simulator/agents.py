@@ -10,3 +10,10 @@ class Agent:
     
     def wealth(self, price):
         ....
+
+class FundamentalTrader():
+    ...
+
+class MomentumTrader():
+    ...
+
